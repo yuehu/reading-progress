@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Progress</title>
+  <script src="build/build.js"></script>
+  <style>
+    .container {
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+    .content {
+      min-height: 900px;
+      border: 1px dotted #dadada;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="entry">
+      <h1>This is title</h1>
+      <div class="content">
+        This is the content.
+      </div>
+    </div>
+    <div class="footer">This is footer</div>
+    <script>
+      var p = require('reading-progress');
+    </script>
+  </div>
+</body>
+</html>
